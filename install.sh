@@ -10,9 +10,6 @@ if [ "$(id -u)" -ne 0 ]; then
 fi
 
   echo " "
-  echo -e  "--------------------------"
-  echo -e  "       \xE2\x9D\xA4  amir aghajanloo \xE2\x9D\xA4"
-  echo -e  "--------------------------"
   echo -e  "1. backup Vaxilu"
   echo -e  "2. backup Alireza"
   echo -e  "3. backup Mhsanaei"
