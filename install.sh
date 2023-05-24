@@ -1,7 +1,14 @@
 #!/bin/bash
 
-echo -e "\n\e[92mplease wait ...\033[0m\n"
+# Written By: wizwiz
 
+echo " "
+
+echo -e "\e[32m
+amir aghajanloo
+\033[0m"
+
+echo -e "\n\e[92mplease wait ...\033[0m\n"
 
 sleep 1
 
