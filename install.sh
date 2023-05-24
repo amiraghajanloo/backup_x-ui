@@ -1,13 +1,5 @@
 #!/bin/bash
 
-# Written By: wizwiz
-
-echo " "
-
-echo -e "\e[32m
-Amir aghajanloo
-\033[0m"
-
 echo -e "\n\e[92mplease wait ...\033[0m\n"
 
 sleep 1
@@ -19,7 +11,7 @@ fi
 
   echo " "
   echo -e  "--------------------------"
-  echo -e  "       \xE2\x9D\xA4  wizwiz \xE2\x9D\xA4"
+  echo -e  "       \xE2\x9D\xA4  amir aghajanloo \xE2\x9D\xA4"
   echo -e  "--------------------------"
   echo -e  "1. backup Vaxilu"
   echo -e  "2. backup Alireza"
