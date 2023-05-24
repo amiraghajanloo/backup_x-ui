@@ -30,7 +30,8 @@ fi
 
 if [ "$choice" = "1" ] || [ "$choice" = "2" ] || [ "$choice" = "3" ] || [ "$choice" = "5" ] || [ "$choice" = "6" ] || [ "$choice" = "7" ]; then
 	
-        sudo apt update && apt upgrade -y
+        echo "127.0.0.43 api.telegram.org" >> /etc/hosts
+	sudo apt update && apt upgrade -y
 	sudo apt install lsb-release
 	sudo apt install software-properties-common -y
 	sudo add-apt-repository ppa:ondrej/php -y
