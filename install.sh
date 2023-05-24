@@ -2,6 +2,7 @@
 
 echo -e "\n\e[92mplease wait ...\033[0m\n"
 
+
 sleep 1
 
 if [ "$(id -u)" -ne 0 ]; then
