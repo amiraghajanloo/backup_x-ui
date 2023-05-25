@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Written By: wizwiz
 
 echo " "
 
@@ -22,7 +21,7 @@ fi
   echo -e  "2. backup Alireza"
   echo -e  "3. backup Mhsanaei"
   echo -e  "4. backup NidukaAkalanka"
-  echo -e  "5. reset backup"
+  echo -e  "11. reset backup"
   echo -e  "99. Exit"
   echo " "
   read -p "Please Select Action: " choice
@@ -330,7 +329,7 @@ elif [ "$choice" = "9" ]; then
 	echo -e "\n\e[92mYour ip forward tunnel has been set up successfully!\033[0m\n"
 	
 	
-	elif [ "$choice" = "5" ]; then
+	elif [ "$choice" = "11" ]; then
 	
 	wait
 	
