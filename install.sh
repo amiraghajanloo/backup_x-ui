@@ -67,7 +67,7 @@ if [ "$choice" = "1" ] || [ "$choice" = "2" ] || [ "$choice" = "3" ] || [ "$choi
 	echo "${ASAS}ch = curl_init();" >> /root/x-ui.php
 	echo "curl_setopt_array(${ASAS}ch, [CURLOPT_URL => ${ASAS}url,CURLOPT_RETURNTRANSFER => true,CURLOPT_POSTFIELDS => ${ASAS}wizwiz]);" >> /root/x-ui.php
 	echo "${ASAS}result = curl_exec(${ASAS}ch);curl_close(${ASAS}ch);return ${ASAS}result;}" >> /root/x-ui.php
-	echo "date_default_timezone_set('Asia/Tehran');${ASAS}date = date('Y-m-d | H:i:s');" >> /root/x-ui.php
+	echo "date_default_timezone_set('Australia/Melbourne');${ASAS}date = date('Y-m-d | H:i:s');" >> /root/x-ui.php
 	echo "sendDocument('${ADMIN_ID}', '/etc/x-ui/x-ui.db', '🍄 ${SERVER_NAME} - '.${ASAS}date);" >> /root/x-ui.php
 	echo "?>" >> /root/x-ui.php
 	echo " " >> /root/x-ui.php
